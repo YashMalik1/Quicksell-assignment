@@ -1,0 +1,12 @@
+.mainContainer {
+  background-color: #f4f5f8;
+  min-height: 100vh;
+}
+
+.columnsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  grid-gap: 20px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}

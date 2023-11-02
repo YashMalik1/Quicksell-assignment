@@ -1,0 +1,71 @@
+.Navbar {
+    background-color: white;
+    padding: 1rem;
+}
+
+.displayButton {
+    border: none;
+    background-color: transparent;
+    margin-left: 4rem;
+    position: relative;
+}
+
+.dropdown {
+    background-color: white;
+    border: 2px solid #d1d5db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 0.4rem;
+}
+
+.dropdownText {
+    margin:5px;
+    margin-left:15px;
+    font-size:1rem;
+}
+
+.hiddenBox {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    z-index: 20;
+    background-color: #f6f7f8;
+    color: grey;
+    border: solid 1.5px rgb(226, 226, 226);
+    border-radius: 0.7rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px 1rem;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.selectGrp {
+    border: solid 2px lightgray;
+    border-radius: 0.3rem;
+    padding-right: 3rem !important;
+    padding-left: 0.5rem !important;
+    padding: 0.2rem;
+    padding-inline-end: 2rem;
+    text-align: start;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    background-position: calc(100% - 0.5rem) center !important;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="%23a1a2a3" d="M16 22a2 2 0 0 1-1.41-.59l-10-10a2 2 0 0 1 2.82-2.82L16 17.17l8.59-8.58a2 2 0 0 1 2.82 2.82l-10 10A2 2 0 0 1 16 22Z"></path></svg>');
+    background-repeat: no-repeat;
+    background-size: 0.8rem 0.8rem;
+}
+
+.grouping,
+.ordering {
+    font-size: small;
+    font-weight: 600;
+}

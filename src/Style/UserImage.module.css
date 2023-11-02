@@ -1,0 +1,15 @@
+.userImage {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.availabilityIndicator {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  border: 2px white solid;
+  border-radius: 50%;
+  height: 0.7rem;
+  width: 0.7rem;
+}
